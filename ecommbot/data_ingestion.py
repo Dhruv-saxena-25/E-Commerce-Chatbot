@@ -12,7 +12,6 @@ ASTRA_DB_API_ENDPOINT=os.getenv("ASTRA_DB_API_ENDPOINT")
 ASTRA_DB_APPLICATION_TOKEN=os.getenv("ASTRA_DB_APPLICATION_TOKEN")
 ASTRA_DB_KEYSPACE=os.getenv("ASTRA_DB_KEYSPACE")
 
-
 embedding = OpenAIEmbeddings(api_key=OPENAI_API_KEY)
 
 def data_ingestion(status):
