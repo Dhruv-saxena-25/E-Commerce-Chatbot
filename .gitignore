@@ -32,6 +32,8 @@ chatbot/*
 # .ENV
 .env/*
 
+# Folders
+notebook/*
 
 
 # PyInstaller
